@@ -4,7 +4,7 @@
 		<defName>Ab16_Bullet_Tranqulizer</defName>
 		<label>tranquilizer dart</label>
 		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<texPath>Things/Proj_Tranq_Dart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
