@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonLethalWeapons", "NonLethalWeapons\NonLethalWeapons.csproj", "{B862C66E-3312-4EA4-9CF2-B475499533B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B862C66E-3312-4EA4-9CF2-B475499533B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B862C66E-3312-4EA4-9CF2-B475499533B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B862C66E-3312-4EA4-9CF2-B475499533B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B862C66E-3312-4EA4-9CF2-B475499533B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02F97CC0-7349-4E74-A887-B829B8E06AED}
+	EndGlobalSection
+EndGlobal
