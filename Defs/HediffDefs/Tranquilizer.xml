@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <HediffDef ParentName="DiseaseBase">
-        <!-- TODO: Body size balance effort -->
         <defName>Ab16_Tranquilize</defName>
         <label>tranquilize</label>
         <labelNoun>an intense tranquilization</labelNoun>

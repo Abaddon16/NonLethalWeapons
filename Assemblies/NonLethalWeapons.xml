@@ -5,9 +5,9 @@
     </assembly>
     <members>
         <member name="T:NonLethalWeapons.ThingDef_NonLethalBullet">
-                 <summary>  A thing definition class of a non-lethal bullet. </summary>
-                 <remarks>  Abaddon16, 12/15/2018. </remarks>
-                 <seealso cref="T:Verse.ThingDef"/>
+            		<summary>  A thing definition class of a non-lethal bullet. </summary>
+            		<remarks>  Abaddon16, 12/15/2018. </remarks>
+            		<seealso cref="T:Verse.ThingDef"/>
         </member>
         <member name="F:NonLethalWeapons.ThingDef_NonLethalBullet.AddHediffChance">
             <summary>  The chance of adding the hediffs. </summary> 
@@ -16,18 +16,18 @@
             <summary>  A list of the hediffs to add. </summary> 
         </member>
         <member name="T:NonLethalWeapons.Projectile_TranquilizerBullet">
-                 <summary>  A tranquilizer bullet object. </summary>
-                 <remarks> Abaddon16, 12/15/2018. </remarks>
-                 <seealso cref="T:RimWorld.Bullet"/>
+            		<summary>  A tranquilizer bullet object. </summary>
+            		<remarks> Abaddon16, 12/15/2018. </remarks>
+            		<seealso cref="T:RimWorld.Bullet"/>
         </member>
         <member name="P:NonLethalWeapons.Projectile_TranquilizerBullet.Def">
-                     <summary>  Gets the definition of the non-lethal bullet </summary>
-                     <value>    The definition class. </value>
+            			<summary>  Gets the definition of the non-lethal bullet </summary>
+            			<value> The definition class. </value>
         </member>
         <member name="M:NonLethalWeapons.Projectile_TranquilizerBullet.Impact(Verse.Thing)">
-                     <summary>  Code called on impact </summary>
-                     <remarks>  Abaddon16, 12/15/2018. </remarks>
-                     <param name="hitThing"> The thing being hit. </param>
+            			<summary>  Code called on impact </summary>
+            			<remarks>  Abaddon16, 12/15/2018. </remarks>
+            			<param name="hitThing"> The thing being hit. </param>
         </member>
     </members>
 </doc>
