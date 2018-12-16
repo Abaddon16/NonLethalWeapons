@@ -4,15 +4,14 @@
 	<author>Abaddon16</author>
 	<url>https://github.com/Abaddon16/NonLethalWeapons</url>
 	<targetVersion>1.0.2096</targetVersion>
-	<description>Non-Lethal Weapons does what it says on the tin. 
-		&lt;b&gt;This mod is in pre-alpha, but everything in it is functional.&lt;/b&gt;
-		&lt;p&gt;This is a mod intended to solve one issue - the inability to knock a colonist out without doing major damage.
-				You have a colonist on a rampage and they are about to break your cooler in the summer but you don't have any healroot?
-				These non-lethal weapons will be your saving grace.&lt;/p&gt;
-		&lt;size=18&gt;Tranquilizer Gun&lt;/size&gt;
-		&lt;p&gt;If you don't care about the catharsis buff, but can't manage to withstand the mental breaks and beatdown that would need to occur to get them straight again, the tranquilizer gun is your friend.&lt;/p&gt;
-		&lt;p&gt;There is almost no downside (currently) to using the tranquilizer gun on anything - except mechanoids, it straight up does not work.
-				The base body size of the target is taken into account - it takes more darts to drop a thrumbo than a colonist.
-				However, you can kill someone with this if you continue to shoot them past unconsciousness, so beware.&lt;/p&gt;
+	<description>
+Non-Lethal Weapons does what it says on the tin.
+
+&lt;b&gt;This mod is in pre-alpha, but everything in it is functional.&lt;/b&gt;
+This is a mod intended to solve one issue - the inability to knock a colonist out without doing major damage. You have a colonist on a rampage and they are about to break your cooler in the summer but you don't have any healroot? These non-lethal weapons will be your saving grace.
+
+
+&lt;size=18&gt;Tranquilizer Gun&lt;/size&gt;
+If you don't care about the catharsis buff, but can't manage to withstand the mental breaks and beatdown that would need to occur to get them straight again, the tranquilizer gun is your friend. There is almost no downside (currently) to using the tranquilizer gun on anything - except mechanoids, it straight up does not work. The base body size of the target is taken into account - it takes more darts to drop a thrumbo than a colonist. However, you can kill someone with this if you continue to shoot them past unconsciousness, so beware.
 	</description>
 </ModMetaData>
