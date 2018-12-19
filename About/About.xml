@@ -5,20 +5,22 @@
 	<url>https://github.com/Abaddon16/NonLethalWeapons</url>
 	<targetVersion>1.0.2096</targetVersion>
 	<description>
-Non-Lethal Weapons does what it says on the tin.
+# NonLethalWeapons
+A RimWorld mod. Does what it says on the tin.  
 
--- Disclaimer --
-This mod is in pre-alpha, but everything in it is functional.
+# Disclaimer
+This mod is in pre-alpha, but everything in it is functional.  
 
-This is a mod intended to solve one issue - the inability to knock a colonist out without doing major damage. You have a colonist on a rampage and they are about to break your cooler in the summer but you don't have any healroot? These non-lethal weapons will be your saving grace.
+This is a mod intended to solve one issue - the inability to knock a colonist out without doing major damage. You have a colonist on a rampage and they are about to break your cooler in the summer but you don't have any healroot? These non-lethal weapons will be your saving grace.  
 
+# Links
+Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1592312455  
+GitHub: https://github.com/Abaddon16/NonLethalWeapons  
 
----Tranquilizer Gun---
-If you don't care about the catharsis buff, but can't manage to withstand the mental breaks and beatdown that would need to occur to get them straight again, the tranquilizer gun is your friend. There is almost no downside (currently) to using the tranquilizer gun on anything - except mechanoids, it straight up does not work. The base body size of the target is taken into account - it takes more darts to drop a thrumbo than a colonist. However, you can kill someone with this if you continue to shoot them past unconsciousness, so beware.
-
--Contributors-
-@Mehni - helping me get off the ground and understand how to be a modder
-@Axinex - for the artwork he made
+# Contributors
+[@Mehni](https://github.com/Mehni) - helping me get off the ground and understand how to be a modder  
+[@Axinex](https://github.com/Axinex) - for the artwork he made  
+[@Dr_Zhivago](https://github.com/DrZhivago1) - for being smart when I am not and remembering things for me I can't
 
 And to the RimWorld Discord at large for being so awesome.
 	</description>

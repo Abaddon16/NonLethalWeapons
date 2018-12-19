@@ -8,7 +8,7 @@
         <isBad>false</isBad>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
-                <severityPerDay>-2.5 </severityPerDay>
+                <severityPerDay>-2.2</severityPerDay>
             </li>
         </comps>
         <injuryProps>
@@ -31,7 +31,7 @@
                 <minSeverity>0.25</minSeverity>
                 <label>moderate</label>
                 <painFactor>.65</painFactor>
-                <vomitMtbDays>0.1</vomitMtbDays>
+                <vomitMtbDays>0.01</vomitMtbDays>
                 <capMods>
                     <li>
                         <capacity>Consciousness</capacity>
@@ -55,6 +55,7 @@
                 <label>extreme</label>
                 <painFactor>0</painFactor>
                 <lifeThreatening>true</lifeThreatening>
+                <deathMtbDays>5.2</deathMtbDays>
                 <capMods>
                     <li>
                         <capacity>Consciousness</capacity>

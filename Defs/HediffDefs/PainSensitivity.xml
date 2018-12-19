@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <HediffDef ParentName="DiseaseBase">
+        <defName>Ab16_PainSensitivity</defName>
+        <label>pain sensitivity</label>
+        <labelNoun>an increase in pain sensitivity</labelNoun>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-3.7</severityPerDay>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <minSeverity>0.01</minSeverity>
+                <label>minor-hidden</label>
+				<becomeVisible>false</becomeVisible>
+                <painFactor>1.15</painFactor>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <setMax>0.85</setMax>
+                    </li>
+                </capMods>
+            </li>
+			<li>
+                <minSeverity>0.35</minSeverity>
+                <label>moderate-hidden</label>
+				<becomeVisible>false</becomeVisible>
+                <painFactor>1.35</painFactor>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <setMax>0.75</setMax>
+                    </li>
+                </capMods>
+            </li>
+			<li>
+                <minSeverity>0.65</minSeverity>
+                <label>severe-hidden</label>
+				<becomeVisible>false</becomeVisible>
+                <painFactor>1.9</painFactor>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <setMax>0.65</setMax>
+                    </li>
+                </capMods>
+            </li>
+			<li>
+                <minSeverity>0.9</minSeverity>
+                <label>extreme-hidden</label>
+				<becomeVisible>false</becomeVisible>
+                <painFactor>2.5</painFactor>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <setMax>0.5</setMax>
+                    </li>
+                </capMods>
+            </li>
+			<li>
+                <minSeverity>1.5</minSeverity>
+                <label>justWhy?-hidden</label>
+				<becomeVisible>false</becomeVisible>
+                <painFactor>4</painFactor>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <setMax>0.15</setMax>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+</Defs>

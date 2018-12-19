@@ -12,5 +12,6 @@ Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1592312455
 # Contributors
 [@Mehni](https://github.com/Mehni) - helping me get off the ground and understand how to be a modder  
 [@Axinex](https://github.com/Axinex) - for the artwork he made  
+[@Dr_Zhivago](https://github.com/DrZhivago1) - for being smart when I am not and remembering things for me I can't
 
 And to the RimWorld Discord at large for being so awesome.

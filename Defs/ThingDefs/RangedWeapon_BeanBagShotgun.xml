@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef Class="NonLethalWeapons.ThingDef_NLW_HediffBullet" ParentName="BaseBullet">
-		<defName>Ab16_Bullet_Tranqulizer</defName>
-		<label>tranquilizer dart</label>
+		<defName>Ab16_Bullet_BeanBag</defName>
+		<label>bean bag</label>
 		<graphicData>
-			<texPath>Things/Proj_Tranq_Dart</texPath>
+			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
 			<flyOverhead>false</flyOverhead>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
-			<stoppingPower>.8</stoppingPower>
-			<speed>68</speed>
+			<damageDef>Blunt</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<stoppingPower>1.8</stoppingPower>
+			<speed>32</speed>
 		</projectile>
 		<AddHediffChance>0.85</AddHediffChance>
 		<HediffsToAdd>
-			<li>Ab16_Tranquilize</li>
+			<li>Ab16_PainSensitivity</li>
 		</HediffsToAdd>
-		<thingClass>NonLethalWeapons.Projectile_NLW_TranquilizerDart</thingClass>
+		<thingClass>NonLethalWeapons.Projectile_NLW_BeanBag</thingClass>
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>Ab16_Gun_Tranquilizer</defName>
-		<label>tranquilizer gun</label>
-		<description>A tranquilizer gun. Does no damage, but will likely tranquilize the target.</description>
+		<defName>Ab16_Gun_BeanBagShotgun</defName>
+		<label>bean bag shotgun</label>
+		<description>Does minimal impact damage, but will cause excruciating pain.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<soundInteract>Interact_Shotgun</soundInteract>
 		<statBases>
 			<WorkToMake>9000</WorkToMake>
-			<Mass>1.4</Mass>
-			<AccuracyTouch>.96</AccuracyTouch>
-			<AccuracyShort>.92</AccuracyShort>
-			<AccuracyMedium>.86</AccuracyMedium>
-			<AccuracyLong>.68</AccuracyLong>
-			<RangedWeapon_Cooldown>1.16</RangedWeapon_Cooldown>
+			<Mass>1.8</Mass>
+			<AccuracyTouch>.98</AccuracyTouch>
+			<AccuracyShort>.96</AccuracyShort>
+			<AccuracyMedium>.47</AccuracyMedium>
+			<AccuracyLong>.3</AccuracyLong>
+			<RangedWeapon_Cooldown>1.41</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>Ab16_Tranquilizer_Project</researchPrerequisite>
+			<researchPrerequisite>Ab16_BeanBag_Project</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>7</Crafting>
+				<Crafting>1</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<weaponTags>
 			<li>SimpleGun</li>
 		</weaponTags>
 		<costList>
-			<Steel>25</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>15</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Ab16_Bullet_Tranqulizer</defaultProjectile>
-				<warmupTime>.8</warmupTime>
-				<range>32</range>
-				<soundCast>Shot_Revolver</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>2</muzzleFlashScale>
+				<defaultProjectile>Ab16_Bullet_BeanBag</defaultProjectile>
+				<warmupTime>1.41</warmupTime>
+				<range>8</range>
+				<soundCast>Shot_Shotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>3</muzzleFlashScale>
 			</li>
 		</verbs>
 		<tools>
