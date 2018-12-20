@@ -26,7 +26,7 @@
 		<label>bean bag shotgun</label>
 		<description>Does minimal impact damage, but will cause excruciating pain.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
+			<texPath>Things/BeanBag_Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Shotgun</soundInteract>

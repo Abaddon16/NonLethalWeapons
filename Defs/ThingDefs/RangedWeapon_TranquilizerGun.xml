@@ -26,7 +26,7 @@
 		<label>tranquilizer gun</label>
 		<description>A tranquilizer gun. Does no damage, but will likely tranquilize the target.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
+			<texPath>Things/Tranq_Rifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_ChargeRifle</soundInteract>
