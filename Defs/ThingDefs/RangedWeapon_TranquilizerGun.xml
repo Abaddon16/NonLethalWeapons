@@ -58,7 +58,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Ab16_Bullet_Tranqulizer</defaultProjectile>
 				<warmupTime>1.1</warmupTime>
-				<range>22</range>
+				<range>16</range>
 				<soundCast>Shot_Revolver</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>2</muzzleFlashScale>
