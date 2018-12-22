@@ -33,11 +33,11 @@
 		<statBases>
 			<WorkToMake>9000</WorkToMake>
 			<Mass>1.4</Mass>
-			<AccuracyTouch>.96</AccuracyTouch>
-			<AccuracyShort>.92</AccuracyShort>
-			<AccuracyMedium>.86</AccuracyMedium>
-			<AccuracyLong>.68</AccuracyLong>
-			<RangedWeapon_Cooldown>1.16</RangedWeapon_Cooldown>
+			<AccuracyTouch>.83</AccuracyTouch>
+			<AccuracyShort>.96</AccuracyShort>
+			<AccuracyMedium>.65</AccuracyMedium>
+			<AccuracyLong>.22</AccuracyLong>
+			<RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>Ab16_Tranquilizer_Project</researchPrerequisite>
@@ -57,8 +57,8 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Ab16_Bullet_Tranqulizer</defaultProjectile>
-				<warmupTime>.8</warmupTime>
-				<range>32</range>
+				<warmupTime>1.1</warmupTime>
+				<range>22</range>
 				<soundCast>Shot_Revolver</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>2</muzzleFlashScale>

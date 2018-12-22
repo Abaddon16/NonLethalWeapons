@@ -1,5 +1,5 @@
 # NonLethalWeapons
-A RimWorld mod. Does what it says on the tin.  
+A RimWorld mod. Does what it says on the tin. Some might be inclined to say "less lethal".  
 
 ### Disclaimer
 This mod is in pre-alpha, but everything in it is functional.  
