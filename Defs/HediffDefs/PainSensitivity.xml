@@ -3,6 +3,7 @@
     <HediffDef ParentName="DiseaseBase">
         <defName>Ab16_PainSensitivity</defName>
         <label>pain sensitivity</label>
+		<description>A hediff that increases pain sensitivity, used by the Bean Bag Shotgun</description>
         <labelNoun>an increase in pain sensitivity</labelNoun>
         <isBad>false</isBad>
         <comps>

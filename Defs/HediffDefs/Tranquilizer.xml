@@ -3,6 +3,7 @@
     <HediffDef ParentName="DiseaseBase">
         <defName>Ab16_Tranquilize</defName>
         <label>tranquilize</label>
+		<description>A hediff used by the Tranquilizer</description>
         <labelNoun>an intense tranquilization</labelNoun>
         <lethalSeverity>1</lethalSeverity>
         <isBad>false</isBad>
