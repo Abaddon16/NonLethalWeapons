@@ -29,7 +29,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\v1.1\Assemblies\</OutputPath>
+    <OutputPath>..\v1.2\Assemblies\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -50,7 +50,6 @@
   <PropertyGroup>
     <PostBuildEvent>xcopy "$(SolutionDir)About\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\About\" /Y /E
 xcopy "$(SolutionDir)v1.1\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\v1.2\" /Y /E
-xcopy "$(SolutionDir)v1.1\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\v1.1\" /Y /E
 xcopy "$(SolutionDir)v1.0\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\v1.0\" /Y /E
 xcopy "$(SolutionDir)Defs\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\Defs\" /Y /E
 xcopy "$(SolutionDir)Textures\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\Textures\" /Y /E
