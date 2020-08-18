@@ -18,7 +18,7 @@
     <DebugSymbols>false</DebugSymbols>
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\v1.1\Assemblies\</OutputPath>
+    <OutputPath>..\1.2\Assemblies\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -29,7 +29,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\v1.2\Assemblies\</OutputPath>
+    <OutputPath>..\1.2\Assemblies\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -48,13 +48,15 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(SolutionDir)About\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\About\" /Y /E
-xcopy "$(SolutionDir)v1.1\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\v1.1\" /Y /E
-xcopy "$(SolutionDir)v1.2\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\v1.2\" /Y /E
-xcopy "$(SolutionDir)Defs\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\Defs\" /Y /E
-xcopy "$(SolutionDir)Textures\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\Textures\" /Y /E
-xcopy "$(SolutionDir)LoadFolders.xml" "$(SolutionDir)..\..\Mods\$(SolutionName)\" /Y /E
-xcopy "$(SolutionDir)README.md" "$(SolutionDir)..\..\Mods\$(SolutionName)\" /Y /E
-</PostBuildEvent>
+    <PostBuildEvent>RD /S /Q "$(SolutionDir)..\..\Mods\$(SolutionName)"
+
+xcopy "$(SolutionDir)About\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\About\" /Y /S
+xcopy "$(SolutionDir)1.2\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\1.2\" /Y /S
+xcopy "$(SolutionDir)Common\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\Common\" /Y /S
+xcopy "$(SolutionDir)LoadFolders.xml" "$(SolutionDir)..\..\Mods\$(SolutionName)" /Y /S
+xcopy "$(SolutionDir)README.md" "$(SolutionDir)..\..\Mods\$(SolutionName)" /Y /S
+
+xcopy "$(SolutionDir)1.0\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\1.0\" /Y /S
+xcopy "$(SolutionDir)Common\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\1.0\" /Y /S</PostBuildEvent>
   </PropertyGroup>
 </Project>

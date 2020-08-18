@@ -22,7 +22,6 @@ namespace NonLethalWeapons {
 					if(rand <= this.Def.AddHediffChance) {
 						Hediff hediffOnPawn = hitPawn?.health?.hediffSet?.GetFirstHediffOfDef(HediffToAdd);
 						float randomSeverity = Rand.Range(0.11f, 0.245f) / (float)Math.Pow(hitPawn.RaceProps.baseBodySize, 1.5f);
-						Log.Error("Pawn: "+hitPawn.Name+"; Severity: "+randomSeverity.ToString());
 						if(hediffOnPawn != null)
 							hediffOnPawn.Severity += randomSeverity;
 						else {

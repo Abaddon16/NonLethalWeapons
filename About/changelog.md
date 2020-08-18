@@ -2,12 +2,18 @@
 
 All notable changes will be noted in this file.
 
+## [0.1.4a - Messing with folders] 2020-08-18
+
+
+
 ## [0.1.4 - Update to RW1.2] 2020-08-18
 
-Getting back into the swing of things. Trying to balance the Tranq gun. Checked on Beanbag gun as there were questions - it works as expected.
-- Dropped amount of tranq to apply by .1 something
-- Reduced accuracy a smidge at longer ranges
-- increased cool down time by .05
+- Getting back into the swing of things. Trying to balance the Tranq gun.
+  - Dropped amount of tranq to apply by .1 something
+  - Reduced accuracy a smidge at longer ranges
+  - increased cool down time by .05
+- Checked on bean bag gun per some comments, still works as intended
+  - Gun causes almost no pain on its own but it amplifies other pain. May change this in the future, but we shall see
 
 ## [0.1.3 - Update to RW1.1] 2020-02-17
 
