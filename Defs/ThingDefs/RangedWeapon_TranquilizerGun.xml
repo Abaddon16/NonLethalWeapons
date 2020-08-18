@@ -20,7 +20,7 @@
 		</HediffsToAdd>
 		<thingClass>NonLethalWeapons.Projectile_NLW_TranquilizerDart</thingClass>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>Ab16_Gun_Tranquilizer</defName>
 		<label>tranquilizer gun</label>
@@ -33,11 +33,11 @@
 		<statBases>
 			<WorkToMake>9000</WorkToMake>
 			<Mass>1.4</Mass>
-			<AccuracyTouch>.83</AccuracyTouch>
+			<AccuracyTouch>.80</AccuracyTouch>
 			<AccuracyShort>.96</AccuracyShort>
-			<AccuracyMedium>.65</AccuracyMedium>
+			<AccuracyMedium>.59</AccuracyMedium>
 			<AccuracyLong>.22</AccuracyLong>
-			<RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>Ab16_Tranquilizer_Project</researchPrerequisite>
@@ -57,7 +57,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Ab16_Bullet_Tranqulizer</defaultProjectile>
-				<warmupTime>1.1</warmupTime>
+				<warmupTime>1.12</warmupTime>
 				<range>16</range>
 				<soundCast>Shot_Revolver</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>

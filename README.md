@@ -1,15 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<ModMetaData>
-	<name>Non-Lethal Weapons</name>
-	<author>Abaddon16</author>
-	<url>https://github.com/Abaddon16/NonLethalWeapons</url>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
-		<li>1.2</li>
-	</supportedVersions>
-	<packageId>abaddon16.nonlethalweapons</packageId>
-	<description>
 # NonLethalWeapons
 A RimWorld mod by Abaddon16. Does what it says on the tin. Updated for 1.2. I want to get back into updating this and expanding it a bit, but with my degree and work and life... it's been hectic.
 
@@ -37,5 +25,3 @@ GitHub: https://github.com/Abaddon16/NonLethalWeapons
 [@Dr_Zhivago](https://github.com/DrZhivago1) - for being smart when I am not and remembering things for me I can't
 
 And to the RimWorld Discord at large for being so awesome.
-	</description>
-</ModMetaData>

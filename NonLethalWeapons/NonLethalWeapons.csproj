@@ -49,8 +49,8 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy "$(SolutionDir)About\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\About\" /Y /E
-xcopy "$(SolutionDir)v1.1\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\v1.2\" /Y /E
-xcopy "$(SolutionDir)v1.0\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\v1.0\" /Y /E
+xcopy "$(SolutionDir)v1.1\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\v1.1\" /Y /E
+xcopy "$(SolutionDir)v1.2\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\v1.2\" /Y /E
 xcopy "$(SolutionDir)Defs\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\Defs\" /Y /E
 xcopy "$(SolutionDir)Textures\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\Textures\" /Y /E
 xcopy "$(SolutionDir)LoadFolders.xml" "$(SolutionDir)..\..\Mods\$(SolutionName)\" /Y /E
