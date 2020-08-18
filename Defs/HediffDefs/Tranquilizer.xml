@@ -41,7 +41,7 @@
                 </capMods>
             </li>
             <li>
-                <minSeverity>0.4</minSeverity>
+                <minSeverity>0.5</minSeverity>
                 <label>severe</label>
                 <painFactor>.05</painFactor>
                 <capMods>

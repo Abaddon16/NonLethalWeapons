@@ -6,20 +6,18 @@
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
-	<supportedGameVersions>
-		<li>1.1</li>
-	</supportedGameVersions>
 	<packageId>abaddon16.nonlethalweapons</packageId>
 	<description>
 # NonLethalWeapons
-A RimWorld mod. Does what it says on the tin. Updated for 1.1. I will be getting back into this mod here shortly - I'm working on another mod with a group and it's resparked my interest.  
+A RimWorld mod by Abaddon16. Does what it says on the tin. Updated for 1.2. I want to get back into updating this and expanding it a bit, but with my degree and work and life... it's been hectic.
 
 ### Disclaimer
-This mod is in pre-alpha, but everything in it is functional.  
+This mod , but everything in it should be functional.
 
 ## Summary
-This is a mod intended to solve one issue - the inability to knock a colonist out without doing major damage. You have a colonist on a rampage and they are about to break your cooler in the summer but you don't have any healroot? These non-lethal weapons will be your saving grace.  
+This is a mod intended to solve one issue - the inability to knock a colonist out without doing major damage. You have a colonist on a rampage and they are about to break your cooler in the summer but you don't have any healroot? These non-lethal weapons will be your saving grace.
 
 ## Items
 
@@ -30,12 +28,12 @@ If you don't care about the catharsis buff, but can't manage to withstand the me
 This gun will eventually kill someone but your Pawn may die of hunger first. This weapon does super low blunt damage but is known to amplify the effects of pain due to the beanbag impact hyper-sensitiszing the nerves. The impact will proportionally slow down smaller Pawns more than big Pawns.
 
 ## Links
-Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1592312455  
-GitHub: https://github.com/Abaddon16/NonLethalWeapons  
+Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1592312455
+GitHub: https://github.com/Abaddon16/NonLethalWeapons
 
 ## Contributors
-[@Mehni](https://github.com/Mehni) - helping me get off the ground and understand how to be a modder  
-[@Axinex](https://github.com/Axinex) - for the artwork he made  
+[@Mehni](https://github.com/Mehni) - helping me get off the ground and understand how to be a modder
+[@Axinex](https://github.com/Axinex) - for the artwork he made
 [@Dr_Zhivago](https://github.com/DrZhivago1) - for being smart when I am not and remembering things for me I can't
 
 And to the RimWorld Discord at large for being so awesome.
