@@ -25,14 +25,14 @@
                 </capMods>
             </li>
 			<li>
-                <minSeverity>0.35</minSeverity>
+                <minSeverity>0.30</minSeverity>
                 <label>moderate-hidden</label>
 				<becomeVisible>false</becomeVisible>
                 <painFactor>1.35</painFactor>
                 <capMods>
                     <li>
                         <capacity>Moving</capacity>
-                        <setMax>0.75</setMax>
+                        <setMax>0.70</setMax>
                     </li>
                 </capMods>
             </li>
@@ -40,11 +40,11 @@
                 <minSeverity>0.65</minSeverity>
                 <label>severe-hidden</label>
 				<becomeVisible>false</becomeVisible>
-                <painFactor>1.9</painFactor>
+                <painFactor>2</painFactor>
                 <capMods>
                     <li>
                         <capacity>Moving</capacity>
-                        <setMax>0.65</setMax>
+                        <setMax>0.45</setMax>
                     </li>
                 </capMods>
             </li>
@@ -56,7 +56,7 @@
                 <capMods>
                     <li>
                         <capacity>Moving</capacity>
-                        <setMax>0.5</setMax>
+                        <setMax>0.35</setMax>
                     </li>
                 </capMods>
             </li>
@@ -64,7 +64,7 @@
                 <minSeverity>1.5</minSeverity>
                 <label>justWhy?-hidden</label>
 				<becomeVisible>false</becomeVisible>
-                <painFactor>4</painFactor>
+                <painFactor>5</painFactor>
                 <capMods>
                     <li>
                         <capacity>Moving</capacity>

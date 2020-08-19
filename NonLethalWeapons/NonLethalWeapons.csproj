@@ -51,12 +51,12 @@
     <PostBuildEvent>RD /S /Q "$(SolutionDir)..\..\Mods\$(SolutionName)"
 
 xcopy "$(SolutionDir)About\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\About\" /Y /S
-xcopy "$(SolutionDir)1.2\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\1.2\" /Y /S
-xcopy "$(SolutionDir)Common\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\Common\" /Y /S
+xcopy "$(SolutionDir)1.2\Assemblies\$(SolutionName).dll" "$(SolutionDir)..\..\Mods\$(SolutionName)\1.2\Assemblies\" /Y /S
+xcopy "$(SolutionDir)Defs\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\Defs\" /Y /S
+xcopy "$(SolutionDir)Textures\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\Textures\" /Y /S
 xcopy "$(SolutionDir)LoadFolders.xml" "$(SolutionDir)..\..\Mods\$(SolutionName)" /Y /S
 xcopy "$(SolutionDir)README.md" "$(SolutionDir)..\..\Mods\$(SolutionName)" /Y /S
 
-xcopy "$(SolutionDir)1.0\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\1.0\" /Y /S
-xcopy "$(SolutionDir)Common\*.*" "$(SolutionDir)..\..\Mods\$(SolutionName)\1.0\" /Y /S</PostBuildEvent>
+xcopy "$(SolutionDir)1.0\Assemblies\$(SolutionName).dll" "$(SolutionDir)..\..\Mods\$(SolutionName)\1.0\Assemblies\" /Y /S</PostBuildEvent>
   </PropertyGroup>
 </Project>

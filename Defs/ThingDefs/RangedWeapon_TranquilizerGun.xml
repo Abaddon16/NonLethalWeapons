@@ -48,9 +48,11 @@
 		<weaponTags>
 			<li>SimpleGun</li>
 		</weaponTags>
+		<techLevel>Industrial</techLevel>
 		<costList>
 			<Steel>25</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
+			<MedicineHerbal>5</MedicineHerbal>
 		</costList>
 		<verbs>
 			<li>

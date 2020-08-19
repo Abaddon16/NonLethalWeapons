@@ -11,7 +11,7 @@
 			<flyOverhead>false</flyOverhead>
 			<damageDef>Blunt</damageDef>
 			<damageAmountBase>1</damageAmountBase>
-			<stoppingPower>1.8</stoppingPower>
+			<stoppingPower>1.9</stoppingPower>
 			<speed>32</speed>
 		</projectile>
 		<AddHediffChance>0.85</AddHediffChance>
@@ -20,7 +20,7 @@
 		</HediffsToAdd>
 		<thingClass>NonLethalWeapons.Projectile_NLW_BeanBag</thingClass>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>Ab16_Gun_BeanBagShotgun</defName>
 		<label>bean bag shotgun</label>
@@ -32,11 +32,11 @@
 		<soundInteract>Interact_Shotgun</soundInteract>
 		<statBases>
 			<WorkToMake>9000</WorkToMake>
-			<Mass>1.8</Mass>
+			<Mass>1.9</Mass>
 			<AccuracyTouch>.98</AccuracyTouch>
 			<AccuracyShort>.96</AccuracyShort>
 			<AccuracyMedium>.47</AccuracyMedium>
-			<AccuracyLong>.3</AccuracyLong>
+			<AccuracyLong>.25</AccuracyLong>
 			<RangedWeapon_Cooldown>1.46</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
@@ -48,9 +48,11 @@
 		<weaponTags>
 			<li>SimpleGun</li>
 		</weaponTags>
+		<techLevel>Industrial</techLevel>
 		<costList>
 			<Steel>15</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
+			<Sandstone>5</Sandstone>
 		</costList>
 		<verbs>
 			<li>

@@ -50,8 +50,9 @@
     <PostBuildEvent>RD /S /Q "$(SolutionDir)..\..\..\RimWorld1.0\Mods\$(SolutionName)"
 
 xcopy "$(SolutionDir)About\*.*" "$(SolutionDir)..\..\..\RimWorld1.0\Mods\$(SolutionName)\About\" /Y /S
-xcopy "$(SolutionDir)1.0\*.*" "$(SolutionDir)..\..\..\RimWorld1.0\Mods\$(SolutionName)\1.0\" /Y /S
-xcopy "$(SolutionDir)Common\*.*" "$(SolutionDir)..\..\..\RimWorld1.0\Mods\$(SolutionName)\Common\" /Y /S
+xcopy "$(SolutionDir)1.0\Assemblies\$(SolutionName).dll" "$(SolutionDir)..\..\..\RimWorld1.0\Mods\$(SolutionName)\1.0\Assemblies\" /Y /S
+xcopy "$(SolutionDir)Defs\*.*" "$(SolutionDir)..\..\..\RimWorld1.0\Mods\$(SolutionName)\Defs\" /Y /S
+xcopy "$(SolutionDir)Textures\*.*" "$(SolutionDir)..\..\..\RimWorld1.0\Mods\$(SolutionName)\Textures\" /Y /S
 xcopy "$(SolutionDir)LoadFolders.xml" "$(SolutionDir)..\..\..\RimWorld1.0\Mods\$(SolutionName)" /Y /S
 xcopy "$(SolutionDir)README.md" "$(SolutionDir)..\..\..\RimWorld1.0\Mods\$(SolutionName)" /Y /S</PostBuildEvent>
   </PropertyGroup>

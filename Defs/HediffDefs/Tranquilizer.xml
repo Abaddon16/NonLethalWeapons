@@ -24,19 +24,19 @@
                 <capMods>
                     <li>
                         <capacity>Consciousness</capacity>
-                        <setMax>0.8</setMax>
+                        <setMax>0.85</setMax>
                     </li>
                 </capMods>
             </li>
             <li>
                 <minSeverity>0.25</minSeverity>
                 <label>moderate</label>
-                <painFactor>.65</painFactor>
+                <painFactor>.45</painFactor>
                 <vomitMtbDays>0.01</vomitMtbDays>
                 <capMods>
                     <li>
                         <capacity>Consciousness</capacity>
-                        <setMax>0.5</setMax>
+                        <setMax>0.65</setMax>
                     </li>
                 </capMods>
             </li>

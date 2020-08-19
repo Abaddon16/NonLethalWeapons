@@ -1,10 +1,11 @@
 # NLW Changelog
 
-All notable changes will be noted in this file.
+All notable changes will be in this file.
 
-## [0.1.4a - Messing with folders] 2020-08-18
-
-
+## [0.1.4a & 0.1.4b - Messing with folders] 2020-08-18
+- Tried to update to the "Common" folder format, but that breaks 1.0 compatibility if I don't hella duplicate files so I reverted
+- Minor attempts to balance the Tranquilizer towards 3 shots vs 2 shots
+- Attempted to add a "techLevel" tag of "Industrial" to the guns so maybe raiders won't spawn with them super early on? Dunno :D
 
 ## [0.1.4 - Update to RW1.2] 2020-08-18
 

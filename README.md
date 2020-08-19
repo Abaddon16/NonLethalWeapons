@@ -1,5 +1,5 @@
 # NonLethalWeapons
-A RimWorld mod by Abaddon16. Does what it says on the tin. Updated for 1.2, should support 1.0 & 1.1. I want to get back into updating this and expanding it a bit, but with my degree and work and life... it's been hectic.
+A RimWorld mod by Abaddon16. Does what it says on the tin. Updated for 1.2, should support 1.0 & 1.1 (worked on my machine sooooooo). I want to get back into updating this and expanding it a bit, but with my degree, work, life, and an impending career change... it's been hectic.
 
 ### Disclaimer
 This mod is in development, but everything in it should be functional.
@@ -13,7 +13,7 @@ This is a mod intended to solve one issue - the inability to knock a colonist ou
 If you don't care about the catharsis buff, but can't manage to withstand the mental breaks and beatdown that would need to occur to get them straight again, the tranquilizer gun is your friend. There is almost no downside (currently) to using the tranquilizer gun on anything - except mechanoids, it straight up does not work. The base body size of the target is taken into account - it takes more darts to drop a thrumbo than a colonist. However, you can kill someone with this if you continue to shoot them past unconsciousness, so beware.
 
 ### Bean Bag Shotgun
-This gun will eventually kill someone but your Pawn may die of hunger first. This weapon does super low blunt damage but is known to amplify the effects of pain due to the beanbag impact hyper-sensitiszing the nerves. The impact will proportionally slow down smaller Pawns more than big Pawns. The "Pain" stat won't go up much, but every hit from there on will be amplified.
+This gun will eventually kill someone but your Pawn may die of hunger first. This weapon does super low blunt damage but is known to amplify the effects of pain due to the beanbag impact hyper-sensitiszing the nerves. The impact will proportionally slow down smaller Pawns more than big Pawns. The "Pain" stat won't go up much, but every hit from there on will be make it go up more than normal. Eventually, a single punch will likely knock someone out, if the beanbags don't do it first
 
 ## Links
 Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1592312455
