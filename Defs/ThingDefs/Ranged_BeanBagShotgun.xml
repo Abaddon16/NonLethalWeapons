@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef Class="NonLethalWeapons.ThingDef_NLW_HediffBullet" ParentName="BaseBullet">
-		<defName>Ab16_Bullet_BeanBag</defName>
+	<ThingDef Class="NonLethalWeapons.ThingDef_NLW_HediffProjectile" ParentName="BaseBullet">
+		<defName>NLW-Projectile_BeanBag</defName>
 		<label>bean bag</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
@@ -16,22 +16,23 @@
 		</projectile>
 		<AddHediffChance>0.85</AddHediffChance>
 		<HediffsToAdd>
-			<li>Ab16_PainSensitivity</li>
+			<li>NLW-Hediff_PainSensitivity</li>
 		</HediffsToAdd>
 		<thingClass>NonLethalWeapons.Projectile_NLW_BeanBag</thingClass>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>Ab16_Gun_BeanBagShotgun</defName>
+		<defName>NLW-Ranged_BeanBagShotgun</defName>
 		<label>bean bag shotgun</label>
-		<description>Does minimal impact damage, but will cause excruciating pain.</description>
+		<description>Does minimal impact damage, but will increase pain sensitivity and slow the target down.</description>
 		<graphicData>
-			<texPath>Things/BeanBag_Shotgun</texPath>
+			<texPath>Things/Ranged-BeanBag_Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<uiIconScale>1.1</uiIconScale>
 		<soundInteract>Interact_Shotgun</soundInteract>
 		<statBases>
-			<WorkToMake>9000</WorkToMake>
+			<WorkToMake>9800</WorkToMake>
 			<Mass>1.9</Mass>
 			<AccuracyTouch>.98</AccuracyTouch>
 			<AccuracyShort>.96</AccuracyShort>
@@ -40,9 +41,9 @@
 			<RangedWeapon_Cooldown>1.46</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>Ab16_BeanBag_Project</researchPrerequisite>
+			<researchPrerequisite>NLW-Research_BeanBag</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>1</Crafting>
+				<Crafting>2</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<weaponTags>
@@ -58,7 +59,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Ab16_Bullet_BeanBag</defaultProjectile>
+				<defaultProjectile>NLW-Projectile_BeanBag</defaultProjectile>
 				<warmupTime>1.41</warmupTime>
 				<range>8</range>
 				<soundCast>Shot_Shotgun</soundCast>

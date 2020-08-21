@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <HediffDef ParentName="DiseaseBase">
-        <defName>Ab16_PainSensitivity</defName>
+        <defName>NLW-Hediff_PainSensitivity</defName>
         <label>pain sensitivity</label>
 		<description>A hediff that increases pain sensitivity, used by the Bean Bag Shotgun</description>
         <labelNoun>an increase in pain sensitivity</labelNoun>

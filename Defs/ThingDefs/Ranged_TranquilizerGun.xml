@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef Class="NonLethalWeapons.ThingDef_NLW_HediffBullet" ParentName="BaseBullet">
-		<defName>Ab16_Bullet_Tranqulizer</defName>
+	<ThingDef Class="NonLethalWeapons.ThingDef_NLW_HediffProjectile" ParentName="BaseBullet">
+		<defName>NLW-Projectile_Tranqulizer</defName>
 		<label>tranquilizer dart</label>
 		<graphicData>
-			<texPath>Things/Proj_Tranq_Dart</texPath>
+			<texPath>Things/Proj-Tranq_Dart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -16,22 +16,23 @@
 		</projectile>
 		<AddHediffChance>0.85</AddHediffChance>
 		<HediffsToAdd>
-			<li>Ab16_Tranquilize</li>
+			<li>NLW-Hediff_Tranquilize</li>
 		</HediffsToAdd>
 		<thingClass>NonLethalWeapons.Projectile_NLW_TranquilizerDart</thingClass>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>Ab16_Gun_Tranquilizer</defName>
+		<defName>NLW-Ranged_Tranquilizer</defName>
 		<label>tranquilizer gun</label>
 		<description>A tranquilizer gun. Does no damage, but will likely tranquilize the target.</description>
 		<graphicData>
-			<texPath>Things/Tranq_Rifle</texPath>
+			<texPath>Things/Ranged-Tranq_Rifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<uiIconScale>1.1</uiIconScale>
 		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<statBases>
-			<WorkToMake>9000</WorkToMake>
+			<WorkToMake>1100</WorkToMake>
 			<Mass>1.4</Mass>
 			<AccuracyTouch>.80</AccuracyTouch>
 			<AccuracyShort>.96</AccuracyShort>
@@ -40,9 +41,9 @@
 			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>Ab16_Tranquilizer_Project</researchPrerequisite>
+			<researchPrerequisite>NLW-Research_Tranquilizer</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>7</Crafting>
+				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<weaponTags>
@@ -51,14 +52,14 @@
 		<techLevel>Industrial</techLevel>
 		<costList>
 			<Steel>25</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentIndustrial>5</ComponentIndustrial>
 			<MedicineHerbal>5</MedicineHerbal>
 		</costList>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Ab16_Bullet_Tranqulizer</defaultProjectile>
+				<defaultProjectile>NLW-Projectile_Tranqulizer</defaultProjectile>
 				<warmupTime>1.12</warmupTime>
 				<range>16</range>
 				<soundCast>Shot_Revolver</soundCast>

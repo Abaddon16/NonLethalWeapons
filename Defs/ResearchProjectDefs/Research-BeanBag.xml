@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <ResearchProjectDef>
-        <defName>Ab16_BeanBag_Project</defName>
-        <label>Bean Bag</label>
+        <defName>NLW-Research_BeanBag</defName>
+        <label>bean bag</label>
         <description>Allows you to craft a bean bag shotgun that can deter all unwanted actions with minimal damage, but extreme pain.</description>
         <baseCost>100</baseCost>
         <techLevel>Industrial</techLevel>

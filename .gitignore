@@ -1,5 +1,8 @@
 !*
 .vs/
 NonLethalWeapons/obj/
-
+NonLethalWeapons/NonLethalWeapons1.0.csproj.user
 *.pdb
+
+1.0/Assemblies/*
+!1.0/Assemblies/NonLethalWeapons.dll
