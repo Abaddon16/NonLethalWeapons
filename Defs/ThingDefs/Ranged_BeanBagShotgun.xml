@@ -10,11 +10,11 @@
 		<projectile>
 			<flyOverhead>false</flyOverhead>
 			<damageDef>Blunt</damageDef>
-			<damageAmountBase>1</damageAmountBase>
+			<damageAmountBase>3</damageAmountBase>
 			<stoppingPower>1.9</stoppingPower>
 			<speed>32</speed>
 		</projectile>
-		<AddHediffChance>0.85</AddHediffChance>
+		<AddHediffChance>0.87</AddHediffChance>
 		<HediffsToAdd>
 			<li>NLW-Hediff_PainSensitivity</li>
 		</HediffsToAdd>
@@ -53,7 +53,7 @@
 		<costList>
 			<Steel>15</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
-			<Sandstone>5</Sandstone>
+			<BlocksSandstone>5</BlocksSandstone>
 		</costList>
 		<verbs>
 			<li>

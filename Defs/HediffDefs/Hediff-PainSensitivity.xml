@@ -3,7 +3,7 @@
     <HediffDef ParentName="DiseaseBase">
         <defName>NLW-Hediff_PainSensitivity</defName>
         <label>pain sensitivity</label>
-		<description>A hediff that increases pain sensitivity, used by the Bean Bag Shotgun</description>
+		<description>Increased pain sensitivity</description>
         <labelNoun>an increase in pain sensitivity</labelNoun>
         <isBad>false</isBad>
         <comps>
@@ -16,7 +16,7 @@
                 <minSeverity>0.01</minSeverity>
                 <label>minor-hidden</label>
 				<becomeVisible>false</becomeVisible>
-                <painFactor>1.15</painFactor>
+                <painFactor>1.2</painFactor>
                 <capMods>
                     <li>
                         <capacity>Moving</capacity>
@@ -28,7 +28,7 @@
                 <minSeverity>0.30</minSeverity>
                 <label>moderate-hidden</label>
 				<becomeVisible>false</becomeVisible>
-                <painFactor>1.35</painFactor>
+                <painFactor>1.45</painFactor>
                 <capMods>
                     <li>
                         <capacity>Moving</capacity>
@@ -52,7 +52,7 @@
                 <minSeverity>0.9</minSeverity>
                 <label>extreme-hidden</label>
 				<becomeVisible>false</becomeVisible>
-                <painFactor>2.5</painFactor>
+                <painFactor>2.75</painFactor>
                 <capMods>
                     <li>
                         <capacity>Moving</capacity>
@@ -68,7 +68,7 @@
                 <capMods>
                     <li>
                         <capacity>Moving</capacity>
-                        <setMax>0.15</setMax>
+                        <setMax>0.1</setMax>
                     </li>
                 </capMods>
             </li>

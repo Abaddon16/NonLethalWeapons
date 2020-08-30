@@ -2,6 +2,14 @@
 
 All notable changes will be in this file.
 
+
+
+## [0.1.4c - Fixed BeanBag gun, working on PepperSpray] 2020-08-18
+- Brain went the dumb and broke the BeanBag Gun, so I fixed that
+- Working to implement PepperSpray. Similar to the BBG, but would have a smaller range with higher chance of applying the debuff
+  - Not yet implemented, still heavy WIP
+- Working on the BBG, I realize how messed up it is. Maybe PainSensitivity isn't the way to go, but Pain is? Dunno yet.
+
 ## [0.1.4a & 0.1.4b - Messing with folders] 2020-08-18
 - Tried to update to the "Common" folder format, but that breaks 1.0 compatibility if I don't hella duplicate files so I reverted
 - Minor attempts to balance the Tranquilizer towards 3 shots vs 2 shots

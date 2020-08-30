@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef Class="NonLethalWeapons.ThingDef_NLW_HediffProjectile" ParentName="BaseBullet">
+		<defName>NLW-Projectile_PepperSpray</defName>
+		<label>pepper spray</label>
+		<graphicData>
+			<texPath>Things/Proj-Tranq_Dart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>0.1</stoppingPower>
+			<speed>68</speed>
+		</projectile>
+		<AddHediffChance>0.91</AddHediffChance>
+		<HediffsToAdd>
+			<li>NLW-Hediff_PepperSpray</li>
+		</HediffsToAdd>
+		<thingClass>NonLethalWeapons.Projectile_NLW_PepperSpray</thingClass>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>NLW-Ranged_PepperSpray</defName>
+		<label>pepper spray</label>
+		<description>Pepper spray. Frickin hurts, blinds, and makes breathing difficult</description>
+		<graphicData>
+			<texPath>Things/Ranged-PepperSpray</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.1</uiIconScale>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>1100</WorkToMake>
+			<Mass>.9</Mass>
+			<AccuracyTouch>.92</AccuracyTouch>
+			<AccuracyShort>.96</AccuracyShort>
+			<AccuracyMedium>.60</AccuracyMedium>
+			<AccuracyLong>.25</AccuracyLong>
+			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>NLW-Research_PepperSpray</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+        <weaponTags>
+			<li>SimpleGun</li>
+		</weaponTags>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Chemfuel>5</Chemfuel>
+            <SmokeleafLeaves>5</SmokeleafLeaves>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>NLW-Projectile_PepperSpray</defaultProjectile>
+				<warmupTime>.9</warmupTime>
+				<range>5</range>
+				<muzzleFlashScale>0</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2.3</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+</Defs>
